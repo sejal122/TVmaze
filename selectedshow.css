@@ -1,0 +1,132 @@
+.summary {
+    float: left;
+}
+
+.box {
+    padding: 15px;
+    float: left;
+    color: black;
+    background-color: #fff !important;
+    background-image: none !important;
+    width: 100%;
+}
+
+.img {
+    height: 600px !important;
+    
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#Genere,
+.genereList {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.cast {
+    width: fit-content;
+    padding: 7px;
+    background-color: darkseagreen;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.details {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFA500;
+    margin: 10px;
+    width: fit-content;
+    color: #fff;
+    font-weight: 700;
+}
+
+.schedule {
+    display: inline-flex;
+    float: left;
+}
+
+#label {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin: 10px;
+    width: fit-content;
+    color: black;
+    border: 1px solid;
+}
+
+.text {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+}
+
+.days {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    margin: 10px;
+    width: fit-content;
+    color: #fff;
+    font-weight: 700;
+}
+
+.detailsBlock {
+    margin-top: 15%;
+}
+
+.detailsBlock>p {
+
+    margin: 20px 0px 20px;
+
+}
+
+.rating {
+    width: 100%;
+    display: inline-flex;
+    margin: 20px 0px 20px;
+}
+
+p {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+button {
+    margin: 20px 0px 0px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+
+}
+
+.sitelinks:hover {
+    font-size: 1.2rem;
+    text-decoration: none !important;
+}
+
+.sitelinks {
+    transition: font-size 1s;
+
+}
+
+.btn {
+   
+    width: fit-content !important;
+}
+.episodes{
+    margin: 20px 10px 10px 10px;
+}
+.img-fluid{
+    
+}

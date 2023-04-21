@@ -1,0 +1,56 @@
+.layout {
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+h1 {
+    padding: 20px 0 20px 0px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.card {
+    min-width: min-content;
+    margin-bottom: 1.5% !important;
+    border-radius: 0px;
+    color: black !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.link {
+
+    text-decoration: none !important;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.img-square-wrapper {
+    margin-left: -15px;
+}
+
+.ml-auto,
+.mx-auto {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.genere {
+    margin: 5px;
+    padding: 4px;
+    border-radius: 3px;
+    color: #fff;
+}
